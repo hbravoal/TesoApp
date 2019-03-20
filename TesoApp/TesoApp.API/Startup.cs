@@ -27,6 +27,8 @@ namespace TesoApp.API
         public void ConfigureServices(IServiceCollection services)
         {
             IoCRegister.AddDbContext(services,Configuration.GetConnectionString("DefaultConnection"));
+            IoCRegister.AddRepository(services);
+            IoCRegister.AddServices(services);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

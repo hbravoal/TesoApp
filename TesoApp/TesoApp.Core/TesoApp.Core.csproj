@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TesoApp.Common\TesoApp.Common.csproj" />
+    <ProjectReference Include="..\TesoApp.Core.Contracts\TesoApp.Core.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

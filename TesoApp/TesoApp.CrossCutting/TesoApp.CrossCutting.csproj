@@ -10,6 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TesoApp.Application.Contracts\TesoApp.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TesoApp.Business\TesoApp.Business.csproj" />
     <ProjectReference Include="..\TesoApp.Core\TesoApp.Core.csproj" />
   </ItemGroup>
 

@@ -2,7 +2,7 @@
 {
     using System;
     using System.ComponentModel.DataAnnotations;
-    public class Employee
+    public class Employee : IEntity
     {
         [Key]
         
@@ -25,11 +25,11 @@
         public string Password { get; set; }
 
 
-
+        public int OccupationId { get; set; }
         [Required(ErrorMessage = "The field {0} is required")]
         [MaxLength(50, ErrorMessage = "The maximun length for field {0} is {1} characters")]
-        [Display(Name = "Occupation")]
-        //[JsonIgnore]
+        [Display(Name = "Occupation")]        //[JsonIgnore]
+
         public virtual ServiceType Occupation { get; set; }
 
         [Required(ErrorMessage = "The field {0} is required")]
