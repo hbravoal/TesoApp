@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.Common", "TesoApp.Common\TesoApp.Common.csproj", "{D62184B1-C03C-431B-8AFA-A4CB48E93716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.Common", "TesoApp.Common\TesoApp.Common.csproj", "{D62184B1-C03C-431B-8AFA-A4CB48E93716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.Application.Contracts", "TesoApp.Application.Contracts\TesoApp.Application.Contracts.csproj", "{28000B95-BABA-4838-BB16-F8EB5223DDEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.Application.Contracts", "TesoApp.Application.Contracts\TesoApp.Application.Contracts.csproj", "{28000B95-BABA-4838-BB16-F8EB5223DDEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.Business", "TesoApp.Business\TesoApp.Business.csproj", "{7F6AD034-2001-4E9B-979C-766B9B16C5B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.Business", "TesoApp.Business\TesoApp.Business.csproj", "{7F6AD034-2001-4E9B-979C-766B9B16C5B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.Core.Contracts", "TesoApp.Core.Contracts\TesoApp.Core.Contracts.csproj", "{EAF05CA2-DE67-4C15-80F7-FC03B21B67ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.Core.Contracts", "TesoApp.Core.Contracts\TesoApp.Core.Contracts.csproj", "{EAF05CA2-DE67-4C15-80F7-FC03B21B67ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.Core", "TesoApp.Core\TesoApp.Core.csproj", "{4D051205-7BB1-4E57-B17A-A19A00E8A8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.Core", "TesoApp.Core\TesoApp.Core.csproj", "{4D051205-7BB1-4E57-B17A-A19A00E8A8F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.API", "TesoApp.API\TesoApp.API.csproj", "{CBF75F16-3374-4537-BDB1-13E9866CFA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.API", "TesoApp.API\TesoApp.API.csproj", "{CBF75F16-3374-4537-BDB1-13E9866CFA68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Core", "3.Core", "{413ED659-7EBD-40C8-A377-42B8A6944C0A}"
 EndProject
@@ -21,13 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0.Businesss", "2.0.Busine
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1.Application", "2.1.Application", "{FD85F975-842F-4981-ABDA-4483DEF27C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.CrossCutting", "TesoApp.CrossCutting\TesoApp.CrossCutting.csproj", "{78521259-EA69-45D6-81CE-28890F028A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.CrossCutting", "TesoApp.CrossCutting\TesoApp.CrossCutting.csproj", "{78521259-EA69-45D6-81CE-28890F028A6F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.UIForms.Android", "TesoApp.UIForms\TesoApp.UIForms.Android\TesoApp.UIForms.Android.csproj", "{55859F0C-23A6-45BE-81FB-9FEB096A908D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.UIForms.iOS", "TesoApp.UIForms\TesoApp.UIForms.iOS\TesoApp.UIForms.iOS.csproj", "{35AD44C9-E6F1-4C9A-A1B6-23AE4157AE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.UIForms", "TesoApp.UIForms\TesoApp.UIForms\TesoApp.UIForms.csproj", "{5E0C7FE0-67F7-4FD0-A31B-568298DA6FE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.UIForms", "TesoApp.UIForms\TesoApp.UIForms\TesoApp.UIForms.csproj", "{5E0C7FE0-67F7-4FD0-A31B-568298DA6FE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Frontend", "1.Frontend", "{29A13980-3AD5-4444-83B8-0F080C223EB6}"
 EndProject
@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.UIClassic.iOS", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.UIClassic.Android", "TesoApp.UIClassic.Android\TesoApp.UIClassic.Android.csproj", "{15D6508E-EDFD-40AF-AE68-66E841DBAFF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesoApp.UIClassic", "TesoApp.UIClassic\TesoApp.UIClassic.csproj", "{93D98CFB-08FB-470D-BE95-A1D44A8A0996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesoApp.UIClassic", "TesoApp.UIClassic\TesoApp.UIClassic.csproj", "{93D98CFB-08FB-470D-BE95-A1D44A8A0996}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{B4E89DE9-D5ED-4D01-A1B7-CEF2E8811991}"
 EndProject

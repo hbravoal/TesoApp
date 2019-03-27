@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
-    public class Service
+    public class Service : IEntity
     {
         [Key]
         public int Id { get; set; }
